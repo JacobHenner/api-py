@@ -26,5 +26,8 @@ setup(
         "Development Status :: 4 - Beta",
         "Topic :: Software Development",
         "Topic :: Internet"
-    ]
+    ],
+    package_data = {
+        'ordrin': ['*.json']
+    }
 )
